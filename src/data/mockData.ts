@@ -6,7 +6,7 @@ import d from "../assets/4.jpg";
 import e from "../assets/5.jpg";
 import f from "../assets/6.jpg";
 import g from "../assets/7.jpg";
-import h from "../assets/8.jpg"
+import h from "../assets/8.jpg";
 
 export const mockStudents: Student[] = [
   {
