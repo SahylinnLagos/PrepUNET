@@ -28,7 +28,7 @@ const Header: React.FC = () => {
                 </div>
               </div>
               <Link
-                to="/profile"
+                to="/PrepUNET/profile"
                 className="flex items-center space-x-1 bg-blue-800 hover:bg-blue-700 px-3 py-2 rounded-md transition-colors"
               >
                 <Settings className="h-4 w-4" />
@@ -45,13 +45,13 @@ const Header: React.FC = () => {
           ) : (
             <div className="space-x-4">
               <Link
-                to="/login"
+                to="/PrepUNET/login"
                 className="text-blue-200 hover:text-white transition-colors"
               >
                 Iniciar Sesión
               </Link>
               <Link
-                to="/register"
+                to="/PrepUNET/register"
                 className="bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-md transition-colors"
               >
                 Registrarse

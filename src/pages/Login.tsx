@@ -44,7 +44,7 @@ const Login: React.FC = () => {
           </h2>
           <p className="mt-2 text-sm text-gray-600">
             ¿No tienes cuenta?{' '}
-            <Link to="/register" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link to="/PrepUNET/register" className="font-medium text-blue-600 hover:text-blue-500">
               Regístrate aquí
             </Link>
           </p>

@@ -7,7 +7,7 @@ const Home: React.FC = () => {
   const { isAuthenticated } = useAuth();
 
   if (isAuthenticated) {
-    return <Navigate to="/dashboard" replace />;
+    return <Navigate to="/PrepUNET/dashboard" replace />;
   }
 
   return (
@@ -27,14 +27,14 @@ const Home: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
-              to="/register"
+              to="/PrepUNET/register"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors flex items-center space-x-2"
             >
               <span>Comenzar Ahora</span>
               <ArrowRight className="h-5 w-5" />
             </Link>
             <Link
-              to="/login"
+              to="/PrepUNET/login"
               className="text-blue-600 hover:text-blue-800 px-8 py-3 rounded-lg font-semibold border-2 border-blue-600 hover:border-blue-800 transition-colors"
             >
               Iniciar Sesión
@@ -161,7 +161,7 @@ const Home: React.FC = () => {
             Únete a cientos de estudiantes y preparadores que ya confían en PrepUNET
           </p>
           <Link
-            to="/register"
+            to="/PrepUNET/register"
             className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center space-x-2"
           >
             <span>Crear Cuenta Gratis</span>

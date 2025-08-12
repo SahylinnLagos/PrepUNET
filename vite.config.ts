@@ -7,6 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: 'https://sahylinnlagos.github.io/prepunet'
+  base: 'https://sahylinnlagos.github.io/PrepUNET'
 });
 

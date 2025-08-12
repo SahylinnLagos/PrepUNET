@@ -19,11 +19,11 @@ function App() {
             <Header />
             <main>
               <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
+                <Route path="/PrepUNET" element={<Home />} />
+                <Route path="/PrepUNET/login" element={<Login />} />
+                <Route path="/PrepUNET/register" element={<Register />} />
                 <Route
-                  path="/dashboard"
+                  path="/PrepUNET/dashboard"
                   element={
                     <ProtectedRoute>
                       <Dashboard />
@@ -31,14 +31,14 @@ function App() {
                   }
                 />
                 <Route
-                  path="/profile"
+                  path="/PrepUNET/profile"
                   element={
                     <ProtectedRoute>
                       <Profile />
                     </ProtectedRoute>
                   }
                 />
-                <Route path="*" element={<Navigate to="/" replace />} />
+                <Route path="*" element={<Navigate to="/PrepUNET" replace />} />
               </Routes>
             </main>
           </div>
