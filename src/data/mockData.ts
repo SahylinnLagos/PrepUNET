@@ -57,9 +57,9 @@ export const mockTutors: Tutor[] = [
   {
     id: '3',
     idCard: '12345678',
-    firstName: 'Ing. Ana',
+    firstName: 'Ana',
     lastName: 'Martínez',
-    email: 'ana.martinez@gmail.com',
+    email: 'ana.martinez@unet.edu.ve',
     img: a,
     password: 'tutor123',
     role: 'tutor',
@@ -74,9 +74,9 @@ export const mockTutors: Tutor[] = [
   {
     id: '4',
     idCard: '98765432',
-    firstName: 'Ing. Luis',
+    firstName: 'Luis',
     lastName: 'Pérez',
-    email: 'luis.perez@gmail.com',
+    email: 'luis.perez@unet.edu.ve',
     img: b,
     password: 'tutor123',
     role: 'tutor',
