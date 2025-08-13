@@ -54,7 +54,7 @@ const teamData:any = {
     },
     {
       "id": "6",
-      "name": "Brenlim Guerrero",
+      "name": "Bremlin Guerrero",
       "role": "Gestor de Soporte Técnico",
       "description": "Coordinadora de programas académicos con experiencia en metodologías de enseñanza innovadoras.",
       "image": brendin,
