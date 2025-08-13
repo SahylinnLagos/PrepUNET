@@ -160,7 +160,7 @@ const Home: React.FC = () => {
               <GraduationCap className="h-8 w-8 text-white" />
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              ¿Cómo nace PrepaUnet?
+              ¿Cómo nace PrepUNET?
             </h2>
             <div className="max-w-4xl mx-auto bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
               <p className="text-lg text-gray-700 leading-relaxed">
