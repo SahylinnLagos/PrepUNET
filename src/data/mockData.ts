@@ -105,7 +105,7 @@ export const mockTutors: Tutor[] = [
       { id: '7', name: 'Matemática I', pricePerHour: 4000 },
       { id: '8', name: 'Matemática II', pricePerHour: 5000 },
     ],
-    date: 'miércoles - sábado de 10am a 12pm en el salón 8B',
+    date: 'miércoles - jueves de 10am a 12pm en el salón 8B',
     createdAt: new Date().toISOString(),
   },
   {
@@ -141,7 +141,7 @@ export const mockTutors: Tutor[] = [
       { id: '7', name: 'Química I', pricePerHour: 4000 },
       { id: '8', name: 'Química II', pricePerHour: 5000 },
     ],
-    date: 'jueves - sábado de 3pm a 5pm en el salón 18A',
+    date: 'jueves - viernes de 3pm a 5pm en el salón 18A',
     createdAt: new Date().toISOString(),
   },
 ];
