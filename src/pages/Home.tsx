@@ -74,7 +74,7 @@ const Home: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Conecta</h3>
               <p className="text-gray-600">
-                Encuentra preparadores certificados UNET y privados, o estudiantes que buscan apoyo académico especializado
+                Encuentra al preparador perfecto para ti, gratis o de pago, y solicita tu clase en segundos.
               </p>
             </div>
             
@@ -82,9 +82,9 @@ const Home: React.FC = () => {
               <div className="bg-green-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <BookOpen className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Aprende</h3>
+              <h3 className="text-xl font-semibold mb-3">Coordina</h3>
               <p className="text-gray-600">
-                Recibe preparaciones personalizadas con chat integrado y seguimiento continuo de tu progreso académico
+                Chatea al instante, coordina tu clase y aprende de la forma más efectiva y adaptada para ti.
               </p>
             </div>
             
@@ -92,9 +92,9 @@ const Home: React.FC = () => {
               <div className="bg-yellow-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <Star className="h-8 w-8 text-yellow-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Destaca</h3>
+              <h3 className="text-xl font-semibold mb-3">Alcanza más</h3>
               <p className="text-gray-600">
-                Mejora tus calificaciones con sistema de reseñas y calificaciones que garantiza la calidad del servicio
+                Mejora tus notas, supera tus retos académicos y comparte tu experiencia con una reseña que inspire a otros estudiantes.
               </p>
             </div>
           </div>
@@ -160,7 +160,7 @@ const Home: React.FC = () => {
               <GraduationCap className="h-8 w-8 text-white" />
             </div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Acerca de nosotros
+              ¿Cómo nace PrepaUnet?
             </h2>
             <div className="max-w-4xl mx-auto bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -173,7 +173,7 @@ const Home: React.FC = () => {
           <div>
             <div className="text-center mb-12">
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                Nuestro Equipo
+                Miembros del Equipo
               </h3>
               <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto rounded-full"></div>
             </div>

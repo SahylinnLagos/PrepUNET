@@ -105,7 +105,7 @@ export const mockTutors: Tutor[] = [
       { id: '7', name: 'Matemática I', pricePerHour: 4000 },
       { id: '8', name: 'Matemática II', pricePerHour: 5000 },
     ],
-    date: 'miércoles - sábado de 10am a 12pm en el salón 8C',
+    date: 'miércoles - sábado de 10am a 12pm en el salón 8B',
     createdAt: new Date().toISOString(),
   },
   {
@@ -141,20 +141,22 @@ export const mockTutors: Tutor[] = [
       { id: '7', name: 'Química I', pricePerHour: 4000 },
       { id: '8', name: 'Química II', pricePerHour: 5000 },
     ],
-    date: 'jueves - sábado de 3pm a 5pm en el salón 18D',
+    date: 'jueves - sábado de 3pm a 5pm en el salón 18A',
     createdAt: new Date().toISOString(),
   },
 ];
 
 export const careers = [
-  'Ingeniería de Sistemas',
+  'Ingeniería Informatica',
   'Ingeniería Industrial',
   'Ingeniería Electrónica',
+  'Ingeniería Agronómica',
+  'Ingeniería En Producción Animal',
+  'Ingeniería Ambiental',
   'Ingeniería Mecánica',
   'Ingeniería Civil',
   'Arquitectura',
-  'Administración',
-  'Contaduría Pública',
+  'Psicologia',
 ];
 
 export const subjects = [
@@ -162,12 +164,11 @@ export const subjects = [
   'Física',
   'Química',
   'Programación',
-  'Cálculo',
-  'Álgebra',
   'Estadística',
+  'Dibujo',
+  'Ingles',
   'Base de Datos',
   'Estructuras de Datos',
   'Ingeniería de Software',
-  'Redes de Computadores',
   'Sistemas Operativos',
 ];
